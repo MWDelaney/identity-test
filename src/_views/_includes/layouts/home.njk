@@ -4,9 +4,6 @@
   <main class="content content-landing-page" id="main-content" tabindex="-1">
     <article>
       <div data-netlify-identity-menu></div>
-      {% for item in components %}
-        {% include "partials/components/sections/" + item.type + ".njk" %}
-      {% endfor %}
     </article>
   </main>
 {% endblock %}
