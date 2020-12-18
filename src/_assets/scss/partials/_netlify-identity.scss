@@ -1,0 +1,15 @@
+.netlify-identity-menu {
+  @extend .list-unstyled, .list-inline;
+
+  li {
+    @extend .list-inline-item;
+  }
+}
+
+.netlify-identity-signup {
+  @extend .btn, .btn-primary, .btn-lg;
+}
+
+.netlify-identity-login {
+  @extend .btn, .btn-secondary, .btn-lg;
+}
