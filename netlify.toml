@@ -2,9 +2,3 @@
   command = "npm run production"
   publish = "dist"
   functions = "src/functions/"
-
-[[plugins]]
-package = "netlify-plugin-image-optim"
-
-[[plugins]]
-  package = "netlify-plugin-inline-critical-css"
