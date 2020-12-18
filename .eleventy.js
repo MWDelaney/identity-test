@@ -80,6 +80,7 @@ module.exports = function(config) {
         'index.html',
         'admin\/**',
         'thank-you\/**',
+        'event\/**',
       ]
     });
   }
